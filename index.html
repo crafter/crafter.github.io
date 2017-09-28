@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Cem Bayraktutan</title>
+	 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Cem Bayraktutan - Personal Web Site</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<!-- CSS  -->
+    	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    	<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+		
 		<style>
+			
+			h1 {text-align:center;}
+			p {text-align:center;}
+			a {text-align:center;}
+
+
 			body {
 				color: #ffffff;
 				font-family:Monospace;
 				font-size:13px;
 				text-align:center;
 				font-weight: bold;
-				background-color: #000000;
+				background-color: #050505;
 				margin: 0px;
 				overflow: hidden;
 			}
@@ -26,6 +40,21 @@
 	</head>
 
 	<body>
+		
+		<h1 class="brand-logo shake">Cem Bayraktutan</h1>
+
+            <div class="row center">
+                
+                <a target='_blank' href="https://facebook.com/cembayraktutan"><i class="fa fa-facebook fa-lg teal-text shake "></i></a>
+                <a target='_blank' href="https://twitter.com/cembayraktutan"><i class="fa fa-twitter fa-lg teal-text shake"></i></a> 
+                <a target='_blank' href="https://instagram.com/cembayraktutan/"><i class="fa fa-instagram fa-lg teal-text shake"></i></a> 
+                <a target='_blank' href="https://www.linkedin.com/in/cem-bayraktutan-7467104a/"><i class="fa fa-linkedin-square fa-lg teal-text shake"></i></a> 
+                
+            </div>
+             
+               
+		<div id="container"></div>
+
 		<script src="js/Detector.js"></script>
 		<script src="js/libs/stats.min.js"></script>
 
@@ -80,12 +109,12 @@
 				depthTest:      false,
 				transparent:    true
 			});
-			var geometry = new THREE.TextGeometry( 'Cem BAYRAKTUTAN', {
+			var geometry = new THREE.TextGeometry( 'Cem Bayraktutan', {
 				font: font,
-				size: 30,
-				height: 10,
+				size: 20,
+				height: 5,
 				curveSegments: 10,
-				bevelThickness: 5,
+				bevelThickness: 3,
 				bevelSize: 1.5,
 				bevelEnabled: true,
 				bevelSegments: 10,
